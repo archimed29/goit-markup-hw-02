@@ -1,0 +1,238 @@
+:root {
+    --primary-font-family: 'Roboto', sans-serif;
+    --logo-font-family:'Raleway', sans-serif;
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+}
+body {
+    font-family: var(--primary-font-family);
+}
+
+/* components */
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+.logo {
+    font-family: var(--logo-font-family);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+/* /components */
+
+/* header*/
+.logo-tone {
+    color: #000000;
+}
+.menu-contact {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+}
+
+.menu-contact:hover,
+.menu-contact:focus {
+    color: #2196F3;
+}
+
+.menu-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #2196F3;
+}
+/* /header*/
+
+/* hero */
+.hero-img {
+    width: 1600px;
+    height: 600px;
+    background-color: var(--primary-text-color);
+    padding-top: 200px;
+    text-align: center;
+}
+.hero-title-index {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #fff;
+}
+.hero-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    color: #fff;
+}
+.hero-button:hover,
+.hero-button:focus {
+    background: #188CE8;
+}
+/* /hero */
+
+/* advantage */
+.advantage-title {
+    font-size: 0;
+}
+.advantage-list {
+    display: flex;
+}
+.advantage-item {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.advantage-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+/* /advantage*/
+
+ /* work */
+.work-list {
+    display: flex;
+}
+.work-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+ /* /work */
+/* team */
+.team-fone {
+    width: 1600px;
+    height: 648px;
+    background: #F5F4FA;
+}
+.team-list {
+    display: flex;
+}
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-prof {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+/* /team*/
+
+/* footer */
+.address {
+    width: 1600px;
+    height: 252px;
+    background-color: var(--primary-text-color);
+}
+.address-tone {
+    color: #fff;
+}
+.address-map {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #fff;
+}
+.address-contact {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+/* /fooeter */
+
+/* portfolio */
+.menu-link-active {
+    color: #2196F3;
+}
+.sorting-title {
+    font-size: 0;
+}
+.sorting-list {
+    display: flex;
+}
+.sorting-btn {
+    width: 128px;
+    height: 38px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    border: none;
+}
+.sorting-btn:hover,
+.sorting-btn:focus {
+    background: #2196F3;
+    color: #fff;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.portfolio-box {
+    width: 370px;
+    height: 404px;
+}
+.portfolio-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.portfolio-type {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+/* /portfolio */
