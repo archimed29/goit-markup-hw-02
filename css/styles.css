@@ -112,6 +112,7 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
 }
 /* /advantage*/
 
@@ -227,6 +228,7 @@ body {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    color: var(--primary-text-color);
 }
 .portfolio-type {
     font-weight: 400;
