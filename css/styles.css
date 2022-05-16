@@ -30,6 +30,21 @@ body {
 .logo-tone {
     color: #000000;
 }
+.header-div {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 1600px;
+    height: 80px;
+    
+}
+.nav-list {
+    display: flex;
+    text-align: center;
+}
+.menu-list {
+    display: flex;
+}
 .menu-contact {
     font-weight: 500;
     font-size: 14px;
@@ -37,7 +52,11 @@ body {
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
 }
+.contact-list {
+    display: flex;
+    text-align: center;
 
+}
 .menu-contact:hover,
 .menu-contact:focus {
     color: #2196F3;
@@ -64,6 +83,8 @@ body {
     background-color: var(--primary-text-color);
     padding-top: 200px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .hero-title-index {
     font-weight: 900;
